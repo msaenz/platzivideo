@@ -1,14 +1,36 @@
-Enlaces 
-https://platzi.com/clases/git-github/
-https://platzi.com/clases/gitlab/
-https://gist.github.com/gndx/60ae8b1807263e3a55f790ed17c4c57a
-https://gist.github.com/gndx/747a8913d12e96ff8374e2125efde544
+En la terminal
+Clonar repositorio
+  git clone https://github.com/platzi/platzivideo
+entrar a la carpeta del proyecto
+  cd PlatziVideo
+crear un nuevo feature 
+  git checkout -b feature/router-redux
+Instalar React router  
+  npm i react-router-dom --save
+Cargar vsCode  
+Crear carpeta routes dentro de src
+  crear archivo App.js
+Renombrar App.js de containers como Home.jsx
+  dentro de Home.jsx cambiar elnombre de la funcion App como Home
+  exportar Home
+  Cambiar en index.js el llamado a App cambiar container  por routes
+En otra terminal activar fake json
+  json-server initialState.json
+Dentro de containers crear archivo Login.jsx
 
+Adicionar a webpack
 
-Proyecto
-https://github.com/platzi/curso-frontend-escuelajs
+Redux
+  libreria basada en arquitectura flux, inspirada en un lenguaje funcional
+  principios
+    Una sola fuente de la verdad
+      Nuestra aplicación solo debe de tener un único Store y es la única fuente de información.
+    Estado de solo lectura
+      La única forma de modificar el estado es emitiendo un acción, este objeto describe lo que va a ocurrir.
+    Utilizar funciones puras
+      Para realizar cambios al estado es necesario utilizar Reducers 
+      los cuales son funciones puras que toman el estado anterior,
+       una acción y devuelve un nuevo estado con las modificaciones necesarias.
 
+Manejar el flujo de la información de la aplicación
 
-https://github.com/typicode/json-server
-fake data
-https://gist.github.com/gndx/d4ca4739450afaa614efe4570ac362ee
