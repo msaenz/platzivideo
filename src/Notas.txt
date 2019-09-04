@@ -1,0 +1,3 @@
+https://github.com/typicode/json-server
+fake data
+https://gist.github.com/gndx/d4ca4739450afaa614efe4570ac362ee
