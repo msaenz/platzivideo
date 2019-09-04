@@ -1,0 +1,14 @@
+Enlaces 
+https://platzi.com/clases/git-github/
+https://platzi.com/clases/gitlab/
+https://gist.github.com/gndx/60ae8b1807263e3a55f790ed17c4c57a
+https://gist.github.com/gndx/747a8913d12e96ff8374e2125efde544
+
+
+Proyecto
+https://github.com/platzi/curso-frontend-escuelajs
+
+
+https://github.com/typicode/json-server
+fake data
+https://gist.github.com/gndx/d4ca4739450afaa614efe4570ac362ee
