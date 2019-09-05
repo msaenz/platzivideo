@@ -33,4 +33,5 @@ Redux
        una acción y devuelve un nuevo estado con las modificaciones necesarias.
 
 Manejar el flujo de la información de la aplicación
-
+Instalar Redux y reactredux
+  npm i redux react-redux --save-dev

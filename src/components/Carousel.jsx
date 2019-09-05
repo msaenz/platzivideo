@@ -5,9 +5,6 @@ const Carousel = ({children}) => (
   <section className="carousel">
     <div className="carousel__container">
       {children}
-      {children}
-      {children}
-      {children}
     </div>
   </section>
 )
