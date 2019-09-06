@@ -35,3 +35,5 @@ Redux
 Manejar el flujo de la información de la aplicación
 Instalar Redux y reactredux
   npm i redux react-redux --save-dev
+Instalar MD5
+  npm i md5 --save

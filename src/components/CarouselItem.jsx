@@ -12,7 +12,7 @@ const CarouselItem = (props) => {
   const {id, cover, title, year, contentRating, duration, isList}  = props
   const handleSetFavorite = () => {
     props.setFavorite({
-        id, cover, title, year, contentRating, duration
+        id, cover, title, year, contentRating, duration,isList
     })
   }
   const handleDeleteFavorite = (itemId) => {
@@ -56,7 +56,6 @@ CarouselItem.propTypes = {
   year: PropTypes.number,
   contetRating: PropTypes.string,
   duration: PropTypes.number,
-  isList: Boolean,
 }
 
 const mapDispatchToProps = {
