@@ -13,8 +13,8 @@
   border: 2px solid white;
   border-radius: 40px;
   padding: 60px 68px 40px;
-  min-height: 700px;
-  width: 300px;
+  //min-height: 700px;
+  //width: 300px;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -80,7 +80,7 @@ a:hover {
   letter-spacing: 1px;
   margin: 20px 0px;
 }
-.input {
+.login > .input {
   background-color: transparent;
   border: 2px solid white;
   color: white;
@@ -93,6 +93,7 @@ a:hover {
   width: 90%;
   outline-style: none;
 }
-::placeholder {
+.login::placeholder {
   color: white;
 }
+

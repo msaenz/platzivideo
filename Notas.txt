@@ -10,6 +10,9 @@ Instalar React router
 Cargar vsCode  
 Crear carpeta routes dentro de src
   crear archivo App.js
+
+  BrowserRouter se encarga de encapsular eldom con las rutas de navegación
+  
 Renombrar App.js de containers como Home.jsx
   dentro de Home.jsx cambiar elnombre de la funcion App como Home
   exportar Home
