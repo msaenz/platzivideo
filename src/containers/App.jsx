@@ -11,16 +11,16 @@ import '../assets/styles/App.scss'
 const API = 'http://localhost:3000/initalState'
 
 const App = () => {
-  const initalState = useInitialState(API)
+  const initialState = useInitialState(API)
   return (
     <div className="App">
       <Header/>
       <Search/>
       {
-        initalState.mylist !== undefined > 0 && 
+        initialState.mylist !== undefined > 0 && 
         <Categories title='Mi Lista'>
           <Carousel>
-          {initalState.mylist.map(item => 
+          {initialState.mylist.map(item => 
             <CarouselItem key={item.id} {...item} />
           )}
           </Carousel>
@@ -29,7 +29,7 @@ const App = () => {
 
       <Categories title='Tendencias'>
         <Carousel>
-          {initalState.trends.map(item => 
+          {initialState.trends.map(item => 
             <CarouselItem key={item.id} {...item} />
           )}
         </Carousel>
@@ -37,7 +37,7 @@ const App = () => {
 
       <Categories title='Originales de Platzi Video'>
         <Carousel>
-        {initalState.originals.map(item => 
+        {initialState.originals.map(item => 
             <CarouselItem key={item.id} {...item} />
         )}
         </Carousel>
